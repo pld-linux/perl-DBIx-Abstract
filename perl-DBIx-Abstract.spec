@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBIx
-%define	pnam	Abstract
+%define		pdir	DBIx
+%define		pnam	Abstract
 Summary:	DBIx::Abstract - DBI SQL abstraction
 Summary(pl):	DBIx::Abstract - abstrakcja DBI SQL
 Name:		perl-DBIx-Abstract
