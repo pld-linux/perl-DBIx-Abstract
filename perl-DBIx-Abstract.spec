@@ -10,7 +10,8 @@ Summary(pl):	DBIx::Abstract - abstrakcja DBI SQL
 Name:		perl-DBIx-Abstract
 Version:	1.005
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3b3f4da9670d16cbb35af51664bcb76f
