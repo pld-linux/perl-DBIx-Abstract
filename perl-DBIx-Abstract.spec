@@ -32,7 +32,7 @@ INSERT, REPLACE, UPDATE, DELETE).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL < /dev/null
+%{__perl} Makefile.PL < /dev/null
 %{__make}
 
 # test require local SQL server access
