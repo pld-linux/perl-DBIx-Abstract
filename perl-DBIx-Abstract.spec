@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - perform "make test"
+# _without_tests - do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
