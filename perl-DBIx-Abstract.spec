@@ -8,7 +8,7 @@
 Summary:	DBIx::Abstract - DBI SQL abstraction
 Summary(pl):	DBIx::Abstract - abstrakcja DBI SQL
 Name:		perl-DBIx-Abstract
-Version:	1.003
+Version:	1.004
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
