@@ -1,11 +1,15 @@
+#
+# Conditional build:
+# _with_tests - perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	Abstract
 Summary:	DBIx::Abstract - DBI SQL abstraction
 Summary(pl):	DBIx::Abstract - abstrakcja DBI SQL
 Name:		perl-DBIx-Abstract
-Version:	1.001
-Release:	2
+Version:	1.003
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -30,6 +34,9 @@ INSERT, REPLACE, UPDATE, DELETE).
 %build
 perl Makefile.PL < /dev/null
 %{__make}
+
+# test require local SQL server access
+%{?_with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
