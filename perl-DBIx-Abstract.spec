@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	Abstract
 Summary:	DBIx::Abstract - DBI SQL abstraction
-Summary(pl):	DBIx::Abstract - abstrakcja DBI SQL
+Summary(pl.UTF-8):   DBIx::Abstract - abstrakcja DBI SQL
 Name:		perl-DBIx-Abstract
 Version:	1.006
 Release:	1
@@ -26,9 +26,9 @@ This module provides methods for doing manipulating database tables.
 It provides methods for all of the more important SQL commands (like
 SELECT, INSERT, REPLACE, UPDATE, DELETE).
 
-%description -l pl
-Ten modu≥ udostÍpnia metody do obs≥ugi tabel baz danych. Zawiera
-metody do wszystkich waøniejszych poleceÒ SQL (takich jak SELECT,
+%description -l pl.UTF-8
+Ten modu≈Ç udostƒôpnia metody do obs≈Çugi tabel baz danych. Zawiera
+metody do wszystkich wa≈ºniejszych polece≈Ñ SQL (takich jak SELECT,
 INSERT, REPLACE, UPDATE, DELETE).
 
 %prep
