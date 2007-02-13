@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	Abstract
 Summary:	DBIx::Abstract - DBI SQL abstraction
-Summary(pl.UTF-8):   DBIx::Abstract - abstrakcja DBI SQL
+Summary(pl.UTF-8):	DBIx::Abstract - abstrakcja DBI SQL
 Name:		perl-DBIx-Abstract
 Version:	1.006
 Release:	1
